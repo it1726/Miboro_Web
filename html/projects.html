@@ -5,59 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/app.css">
-    <link rel="stylesheet" href="../css/lightbox.min.css">
-    <title>Ukázka</title>
+    <link href="../css/lightbox.min.css" rel="stylesheet" />
+    <title>Miboro s.r.o.</title>
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand" href="index.html"><h1>Název firmy</h1></a>
+    <header>
+      <div class="row banner text-center">
+          <div class="column text-center">
+              <img src="../images/logo.png" alt="logo" class="logo">
+          </div>
+          <div class="column text-center" style="margin-top: 10px;">
+              <p style="margin-bottom: 0px;">28. října 3388/111, 702 00 Ostrava</p>
+              <p style="color: rgb(80, 85, 212); margin-bottom: 0px;">Moravskoslezský kraj</p>
+              <p style="margin-bottom: 0px;">+420 730 730 730</p>
+              <p style="color: rgb(80, 85, 212); margin-bottom: 0px;">miboro@miboro.cz</p>
+          </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link" href="index.html">Úvodní strana<span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="about.html">O společnosti</a>
-              <a class="nav-item nav-link" href="services.html">Služby</a>
-              <a class="nav-item nav-link active" href="projects.html">Projekty</a>
-              <a class="nav-item nav-link" href="contacts.html">Kontakty</a>
-            </div>
+              <div class="navbar-nav navbar-center" style="font-size: 150%; padding-top: 50px; padding-bottom: 50px;">
+                  <a class="nav-item nav-link" href="../index.html">Úvodní strana<span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link active" href="../html/projects.html">Projekty</a>
+                  <a class="nav-item nav-link" href="../html/contacts.html">Kontakty</a>
+              </div>
           </div>
-        </nav>
-    <main class="container">
-        <h2 class="title">Projekty</h2> 
-        <hr>
-        <div class="row">
-          <div class="column text-center">
-              <a href="../images/project1.jpg" data-lightbox="image-1" data-title="project1"><img src="../images/project1.jpg" alt="project1" width="100%" style="padding-bottom: 15px;"></a>
-              <p><b>Projekt 1</b></p>
-              <hr class="mobile">
-              <a href="../images/project3.jpg" data-lightbox="image-3" data-title="project3"><img src="../images/project3.jpg" alt="project3" width="100%" style="padding-bottom: 15px;"></a>
-              <p><b>Projekt 3</b></p>
-              <hr class="mobile">
-              <a href="../images/project5.jpg" data-lightbox="image-5" data-title="project5"><img src="../images/project5.jpg" alt="project5" width="100%" style="padding-bottom: 15px;"></a>
-              <p><b>Projekt 5</b></p>
-              <hr class="mobile">
-            </div>
-          <div class="column text-center">
-              <a href="../images/project2.jpg" data-lightbox="image-2" data-title="project2"><img src="../images/project2.jpg" alt="project2" width="100%" style="padding-bottom: 15px;"></a>
-              <p><b>Projekt 2</b></p>
-              <hr class="mobile">
-              <a href="../images/project4.jpg" data-lightbox="image-4" data-title="project4"><img src="../images/project4.jpg" alt="project4" width="100%" style="padding-bottom: 15px;"></a>
-              <p><b>Projekt 4</b></p>
-              <hr class="mobile">
-              <a href="../images/project6.jpg" data-lightbox="image-6" data-title="project6"><img src="../images/project6.jpg" alt="project6" width="100%" style="padding-bottom: 15px;"></a>
-              <p><b>Projekt 6</b></p>
-              <hr class="mobile">
-            </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container2">
+        <div class="container text-center">
+          <h1>Projekty</h1>
+          <hr class="hr-blue">
+          <p>Integer lacinia. Mauris tincidunt sem sed arcu. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. Fusce aliquam vestibulum ipsum. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Nunc tincidunt ante vitae massa. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. Vivamus porttitor turpis ac leo.</p>
         </div>
-      </main>
-    <footer class="jumbotron sticky-bottom bg-dark">
+      </div>  
+      <div class="container3">
+        <div class="container text-center text-white">
+          <h2>Název projektu 1</h2>
+            <hr class="hr-white">
+        </div>
+      </div>
+      <div class="container2">
+        <div class="container text-center">
+          <a href="../images/project1.jpg" data-lightbox="image-1" data-title="project1"><img src="../images/project1.jpg" alt="project1" width="50%" style="padding-bottom: 15px;"></a>
+          <p>Fusce consectetuer risus a nunc. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Nulla non lectus sed nisl molestie malesuada. Integer lacinia. Nullam faucibus mi quis velit. Mauris metus. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est.</p>
+        </div>
+      </div>
+      <div class="container3">
+        <div class="container text-center text-white">
+          <h2>Název projektu 2</h2>
+            <hr class="hr-white">
+        </div>
+      </div>
+      <div class="container2">
+        <div class="container text-center">
+          <a href="../images/project2.jpg" data-lightbox="image-2" data-title="project2"><img src="../images/project2.jpg" alt="project2" width="50%" style="padding-bottom: 15px;"></a>
+          <p>Fusce consectetuer risus a nunc. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Nulla non lectus sed nisl molestie malesuada. Integer lacinia. Nullam faucibus mi quis velit. Mauris metus. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est.</p>
+        </div>
+      </div>
+      <div class="container3">
+        <div class="container text-center text-white">
+          <h2>Název projektu 3</h2>
+            <hr class="hr-white">
+        </div>
+      </div>
+      <div class="container2">
+        <div class="container text-center">
+          <a href="../images/project3.jpg" data-lightbox="image-3" data-title="project3"><img src="../images/project3.jpg" alt="project3" width="50%" style="padding-bottom: 15px;"></a>
+          <p>Fusce consectetuer risus a nunc. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Nulla non lectus sed nisl molestie malesuada. Integer lacinia. Nullam faucibus mi quis velit. Mauris metus. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est.</p>
+        </div>
+      </div>
+    </main>
+    <footer class="sticky-bottom bg-black">
       <p>© 2020 - Adam Toška</p>
     </footer>
-    <script src="../js/lightbox-plus-jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="../js/lightbox-plus-jquery.min.js"></script>
   </body>
 </html>
